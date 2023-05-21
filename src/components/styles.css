@@ -1,0 +1,95 @@
+body {
+    /* fallback for old browsers */
+    background: #6a11cb;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+  }
+
+  .bg-dark.text-white.my-5.mx-auto {
+    background-color: #212529 !important;
+    border: none;
+  }
+  
+  .card-body {
+    padding: 2.5rem;
+  }
+  
+  /* Set input field and label styles */
+  .mb-4.mx-5.w-100 {
+    margin-bottom: 1rem !important;
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+    width: 100% !important;
+  }
+  
+  .text-white {
+    color: #fff !important;
+  }
+  
+  /* Set button styles */
+  .mx-2.px-5 {
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+  
+  /* Set social media icon button styles */
+  .m-3 {
+    margin: 0.75rem !important;
+  }
+  
+  /* Set link styles */
+  a.text-white-50 {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+  
+  a.text-white-50:hover {
+    color: #fff !important;
+  }
+  
+  a.text-white-50:focus {
+    color: #fff !important;
+  }
+  
+  a.text-white-50:active {
+    color: #fff !important;
+  }
+  
+  a.text-white-50:visited {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+  
+  /* Set signup link styles */
+  a.text-white-50.fw-bold {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+  
+  a.text-white-50.fw-bold:hover {
+    color: #fff !important;
+  }
+  
+  a.text-white-50.fw-bold:focus {
+    color: #fff !important;
+  }
+  
+  a.text-white-50.fw-bold:active {
+    color: #fff !important;
+  }
+  
+  a.text-white-50.fw-bold:visited {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+
+  .container-fluid {
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
+    min-height: 100vh;
+    padding: 0 50px; /* Add padding for better visual appearance */
+  }
